@@ -68,29 +68,7 @@ WebDriver driver;
         	System.out.println("element is not displayed");
         }
     }
-//	@Test
-//    public void validate_Username_and_Password_fields() {
-//    	
-//    	driver.get("https://www.facebook.com/");
-//        driver.manage().window().maximize();
-//        WebElement unTB = driver.findElement(By.id("email"));
-//        int un_x = unTB.getLocation().getX();
-//        int un_width = unTB.getSize().getWidth();
-//        int un_height = unTB.getSize().getHeight();
-//        WebElement pwTB = driver.findElement(By.name("Pass"));
-//        int pw_x = pwTB.getLocation().getX();
-//        int pw_width = pwTB.getSize().getWidth();
-//        int pw_height = pwTB.getSize().getHeight();
-//        if(un_x == pw_x && un_width==pw_width && un_height==pw_height)
-//        {
-//        	System.out.println("Username and Password text box are aligned");
-//        }
-//        else
-//        {
-//        	System.out.println("Username and Password text box are not aligned");
-//        }
-//	}
-	@Test
+    @Test
     public void create_new_account_is_display() {
         driver.get("https://www.facebook.com/");
         driver.manage().window().maximize();
@@ -164,8 +142,6 @@ WebDriver driver;
         driver.manage().window().maximize();
         WebElement email =driver.findElement(By.name("email"));
         Dimension size= email.getSize();
-//        System.out.println("Height=" +size.getHeight());
-//        System.out.println("Width=" +size.getWidth());
         int w =size.height;
         int h =size.width;
         System.out.println("Height=" +w);
@@ -219,7 +195,6 @@ WebDriver driver;
     	  driver.get("https://www.facebook.com/");
           driver.manage().window().maximize();
           driver.findElement(By.id("email")).sendKeys("fvcbn1234@gmail.com");
-//          driver.findElement(By.name("pass")).sendKeys("12@20012");
           driver.findElement(By.name("login")).click();
           String expectedError = "Create a new Facebook account.";
           System.out.println("expected error is:" +expectedError);
