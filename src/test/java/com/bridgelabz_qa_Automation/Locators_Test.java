@@ -20,7 +20,6 @@ public class Locators_Test {
 		driver.get("https://www.facebook.com/");
 		driver.manage().window().maximize();
 		driver.findElement(By.id("email")).sendKeys("kadersahib1234@gmail.com");
-//      driver.findElement(By.cssSelector("input[placeholder='Email address or phone number']")).sendKeys("kader");
 		driver.findElement(By.name("pass")).sendKeys("8438311032");
 		driver.findElement(By.name("login")).click();
 		driver.findElement(By.linkText("Forgetten")).click();
@@ -31,25 +30,9 @@ public class Locators_Test {
 		driver.get("https://www.facebook.com/");
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//input[@placeholder='Email address or phone number']")).sendKeys("kadersahib1234@gmail.com");
-		driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("8438311032");
-//		driver.findElement(By.xpath("//input[@id='keepLoggedInLabel']")).click();
-//		driver.findElement(By.xpath("//button[contains(@id,'u_0_')]")).click();
-//		driver.findElement(By.xpath("//button[contains(@name,'log')]")).click();
-//   	driver.findElement(By.xpath("//button[contains(text(),'log ')]")).click();  
-     	driver.findElement(By.xpath("//button[contains(@id,'u_0_')]")).click();
-     	driver.findElement(By.linkText("Forgetten")).click();
-//   	driver.findElement(By.partialLinkText("Forgetten")).click();
-		
-	}
-	@Test
-	public void locators_Absolute_Xpath() {
-//		driver.get("https://facebook.com");
-//		driver.manage().window().maximize();
-//		driver.findElement(By.xpath("html/body/a/Email address or phone number/")).click();
-//		driver.findElement(By.xpath("html/body/a/Password")).click();
-//		driver.findElement(By.xpath("html/body/a/Keep me logged in")).click();
-//		driver.findElement(By.xpath("html/body/a/Login")).click();
-//		driver.findElement(By.xpath("html/body/a/Forgot your password?")).click();
+		driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("8438311032"); 
+     	        driver.findElement(By.xpath("//button[contains(@id,'u_0_')]")).click();
+     	        driver.findElement(By.linkText("Forgetten")).click();
 	}
 	@Test
 	public void locators_Signup() {
@@ -64,8 +47,7 @@ public class Locators_Test {
 		driver.findElement(By.xpath("//select[@name='birthday_month']")).sendKeys("Feb");
 		driver.findElement(By.xpath("//select[@name='birthday_year']")).sendKeys("2001");
 		driver.findElement(By.xpath("//input[contains(@id,'u_0_5')]")).click();
-		driver.findElement(By.xpath("//button[@name='websubmit']")).click();
-//		driver.findElement(By.xpath("//button[@id,'u_3_']")).click();
+		driver.findElement(By.xpath("//button[@name='websubmit']"));
 	}
 	@Test
 	public void locators_Facebook() throws InterruptedException {
