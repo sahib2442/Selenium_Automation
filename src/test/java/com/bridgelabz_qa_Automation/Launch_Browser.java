@@ -49,9 +49,6 @@ WebDriver driver;
 	@Test
 	
 	public void launch_Browser() {
-		
-	//	System.setProperty("webdriver.chrome.driver","C:\\Users\\kader\\eclipse-workspace\\CQA_113_Senelium_Automation\\Drivers\\chromedriver.exe");
-	//	WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 		driver.manage().window().maximize();
 		String title = driver.getTitle();
@@ -64,8 +61,6 @@ WebDriver driver;
 	}
 	@Test
 	public void browser_Navigations() {
-	//	System.setProperty("webdriver.chrome.driver","C:\\Users\\kader\\eclipse-workspace\\CQA_113_Senelium_Automation\\Drivers\\chromedriver.exe");
-	//	WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 		driver.manage().window().maximize();
 		driver.navigate().to("https://www.amazon.com/");
