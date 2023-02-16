@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.bridgelabz_qa_Automation.Actions_Class_Method">
+      <class name="com.bridgelabz_qa_Automation.Handaling_Popup__Test">
         <methods>
-          <include name="drag_And_Drop"/>
+          <include name="file_Download_Using_Firefox"/>
           <include name="setUP"/>
         </methods>
-      </class> <!-- com.bridgelabz_qa_Automation.Actions_Class_Method -->
+      </class> <!-- com.bridgelabz_qa_Automation.Handaling_Popup__Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

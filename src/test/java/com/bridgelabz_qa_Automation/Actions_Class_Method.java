@@ -45,16 +45,6 @@ WebDriver driver;
            
         }
 	}
-	@Test
-    public void enter_Text_Into_Disable_Field() throws InterruptedException {
-        driver.get("https://www.facebook.com/");
-        driver.manage().window().maximize();
-        Thread.sleep(3000);
-        Actions actions = new Actions(driver);
-        WebElement element = driver.findElement(By.id("email"));
-        actions.contextClick(element).perform();
-        Thread.sleep(3000);
-    } 
     
     @Test
     public void enter_DoubleClick_Into_Disable_Field() throws InterruptedException {

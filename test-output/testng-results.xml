@@ -1,21 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[beforeSuite]]>
+    </line>
+    <line>
+      <![CDATA[beforeTest]]>
+    </line>
+    <line>
+      <![CDATA[beforeClass]]>
+    </line>
+    <line>
+      <![CDATA[beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[afterClass]]>
+    </line>
+    <line>
+      <![CDATA[afterTest]]>
+    </line>
+    <line>
+      <![CDATA[afterSuite]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-02-01T15:08:59 IST" name="Default suite" finished-at="2023-02-01T15:09:14 IST" duration-ms="15087">
+  <suite started-at="2023-02-14T10:41:30 IST" name="Default suite" finished-at="2023-02-14T10:41:37 IST" duration-ms="6757">
     <groups>
     </groups>
-    <test started-at="2023-02-01T15:08:59 IST" name="Default test" finished-at="2023-02-01T15:09:14 IST" duration-ms="15087">
-      <class name="com.bridgelabz_qa_Automation.Actions_Class_Method">
-        <test-method is-config="true" signature="setUP()[pri:0, instance:com.bridgelabz_qa_Automation.Actions_Class_Method@25fb8912]" started-at="2023-02-01T15:08:59 IST" name="setUP" finished-at="2023-02-01T15:09:08 IST" duration-ms="8399" status="PASS">
+    <test started-at="2023-02-14T10:41:30 IST" name="Default test" finished-at="2023-02-14T10:41:37 IST" duration-ms="6757">
+      <class name="com.bridgelabz_qa_Automation.TESTNG">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.bridgelabz_qa_Automation.TESTNG@201a4587]" started-at="2023-02-14T10:41:30 IST" name="beforeSuite" finished-at="2023-02-14T10:41:30 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[beforeSuite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.bridgelabz_qa_Automation.TESTNG@201a4587]" started-at="2023-02-14T10:41:30 IST" name="setUP" finished-at="2023-02-14T10:41:34 IST" duration-ms="4418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method signature="drag_And_Drop()[pri:0, instance:com.bridgelabz_qa_Automation.Actions_Class_Method@25fb8912]" started-at="2023-02-01T15:09:08 IST" name="drag_And_Drop" finished-at="2023-02-01T15:09:14 IST" duration-ms="6646" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.bridgelabz_qa_Automation.TESTNG@201a4587]" started-at="2023-02-14T10:41:30 IST" name="beforeTest" finished-at="2023-02-14T10:41:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[beforeTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.bridgelabz_qa_Automation.TESTNG@201a4587]" started-at="2023-02-14T10:41:34 IST" name="beforeClass" finished-at="2023-02-14T10:41:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[beforeClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.bridgelabz_qa_Automation.TESTNG@201a4587]" started-at="2023-02-14T10:41:34 IST" name="beforeMethod" finished-at="2023-02-14T10:41:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[beforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testNg()[pri:0, instance:com.bridgelabz_qa_Automation.TESTNG@201a4587]" started-at="2023-02-14T10:41:34 IST" name="testNg" finished-at="2023-02-14T10:41:37 IST" duration-ms="2290" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- drag_And_Drop -->
-      </class> <!-- com.bridgelabz_qa_Automation.Actions_Class_Method -->
+        </test-method> <!-- testNg -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.bridgelabz_qa_Automation.TESTNG@201a4587]" started-at="2023-02-14T10:41:37 IST" name="afterMethod" finished-at="2023-02-14T10:41:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.bridgelabz_qa_Automation.TESTNG@201a4587]" started-at="2023-02-14T10:41:37 IST" name="afterClass" finished-at="2023-02-14T10:41:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[afterClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.bridgelabz_qa_Automation.TESTNG@201a4587]" started-at="2023-02-14T10:41:37 IST" name="afterTest" finished-at="2023-02-14T10:41:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[afterTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.bridgelabz_qa_Automation.TESTNG@201a4587]" started-at="2023-02-14T10:41:37 IST" name="afterSuite" finished-at="2023-02-14T10:41:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[afterSuite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.bridgelabz_qa_Automation.TESTNG -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
